@@ -1,0 +1,7 @@
+balidea_test.config_form:
+  path: '/admin/config/balidea_test'
+  defaults:
+    _form: '\Drupal\balidea_test\Form\BalideaConfigForm'
+    _title: 'Balidea Configuration'
+  requirements:
+    _permission: 'access content'
