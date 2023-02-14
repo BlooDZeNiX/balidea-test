@@ -1,0 +1,5 @@
+name: Balidea test
+description: Module for Balidea test.
+package: Balidea
+type: module
+core_version_requirement: ^9 || ^10
