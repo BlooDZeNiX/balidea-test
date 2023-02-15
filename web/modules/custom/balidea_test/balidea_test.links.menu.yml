@@ -1,0 +1,7 @@
+balidea_test.admin:
+  title: 'Balidea'
+  parent: system.admin
+  description: 'Balidea menu.'
+  route_name: balidea_test.balidea
+
+
