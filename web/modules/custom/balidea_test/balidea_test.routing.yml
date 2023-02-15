@@ -5,3 +5,12 @@ balidea_test.config_form:
     _title: 'Balidea Configuration'
   requirements:
     _permission: 'access content'
+
+balidea_test.balidea:
+  path: '/balidea_test/balidea'
+  defaults:
+    _controller: '\Drupal\balidea_test\Controller\BalideaTestController::build'
+    _title: 'Balidea'
+  requirements: 
+    _permission: 'balidea access'
+
