@@ -1,0 +1,24 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * @file
+ * Hooks and functionality for Balidea test module
+ */
+
+ /**
+ * Implements hook_theme().
+ */
+function balidea_test_theme($existing, $type, $theme, $path) {
+
+  return [
+    'balidea_test' => [
+      'variables' => [
+        'text' => NULL,
+        'number' => NULL,
+      ],
+      'template' => 'balidea-test',
+    ],
+  ];
+}

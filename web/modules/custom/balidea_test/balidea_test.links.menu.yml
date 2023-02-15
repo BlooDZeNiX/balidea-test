@@ -1,0 +1,17 @@
+balidea_test.admin:
+  title: 'Balidea Test'
+  parent: system.admin
+  description: 'Balidea menu.'
+  route_name: balidea_test.balidea
+
+balidea_test.config_form:
+  title: 'Config Form'
+  parent: balidea_test.admin
+  description: 'Config form for Balidea test'
+  route_name: balidea_test.config_form
+
+balidea_test.balidea:
+  title: 'Balidea'
+  parent: balidea_test.admin
+  description: 'Presentation of content of Balidea config'
+  route_name: balidea_test.balidea
